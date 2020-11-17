@@ -182,7 +182,7 @@ WHERE `Average Balance` <
 (SELECT AVG(`Average Balance`) FROM credit_card_data)
 ORDER BY `Average Balance` DESC;
 
-DROP VIEW `Customers Below Average Balance`;
+#DROP VIEW `Customers Below Average Balance`;
 
 -- 14. What is the number of people who accepted the offer vs number of people who did not?
 
