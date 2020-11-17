@@ -165,11 +165,34 @@ AND (`Own Your Home` = 'Yes')
 AND (`Household Size` >= 3)
 AND (`Offer Accepted` = 'Yes');
 
--- 12.
+-- 12. Your managers want to find out the list of customers whose average balance is less than the average balance of all the customers in the database. Write a query to show them the list of such customers.
 
--- 13.
+SELECT `Customer Number`,`Average Balance`
+FROM credit_card_data
+WHERE `Average Balance` <
+(SELECT AVG(`Average Balance`) FROM credit_card_data)
+ORDER BY `Average Balance` DESC;
 
--- 14.
+-- 13. Since this is something that the senior management is regularly interested in, create a view of the same query.
+
+CREATE VIEW `Customers Below Average Balance` AS
+SELECT `Customer Number`, `Average Balance`
+FROM credit_card_data
+WHERE `Average Balance` <
+(SELECT AVG(`Average Balance`) FROM credit_card_data)
+ORDER BY `Average Balance` DESC;
+
+DROP VIEW `Customers Below Average Balance`;
+
+-- 14. What is the number of people who accepted the offer vs number of people who did not?
+
+SELECT COUNT(`Offer Accepted`) As `Accepted`
+FROM credit_card_data
+WHERE `Offer Accepted` = 'Yes';
+
+SELECT COUNT(`Offer Accepted`) As `Declined`
+FROM credit_card_data
+WHERE `Offer Accepted` = 'No';
 
 -- 15.
 
