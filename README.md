@@ -24,7 +24,7 @@
 
 
 
-**## Project Description**
+## Project Description
 
 You are working as a risk analyst with a bank. Apart from the other banking and loan services, the bank also provides credit card services that are a very important source of revenue for the bank. The bank wants to understand the demographics and other characteristics of its customers that accept a credit card offer and that do not accept a credit card.
 
@@ -34,7 +34,7 @@ Usually, the observational data for these kinds of problems is somewhat limited 
 
 
 
-**## Objective**
+## Objective
 
 Build a model that will provide insight into why some bank customers accept credit card offers. There are also other potential areas of opportunities that the bank wants to understand from the data.
 
@@ -42,7 +42,7 @@ Your senior management has also posted these other questions that will help them
 
 
 
-**## Data**
+## Data
 
 The data set consists of information on 18,000 current bank customers in the study. These are the definitions of data points provided:
 
@@ -76,7 +76,7 @@ Balance: The average balance for each quarter in the last year
 
 
 
-**### Data pre-processing**
+### Data pre-processing
 
 
 
