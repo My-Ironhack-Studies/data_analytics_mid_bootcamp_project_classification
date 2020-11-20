@@ -1,8 +1,8 @@
-# Case Study: Clasification**
+# Case Study: Clasification
 
 
 
-**## Content**
+## Content
 
 \- [Project Description](#project-description)
 
