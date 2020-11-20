@@ -1,4 +1,4 @@
-**# Case Study: Clasification**
+# Case Study: Clasification**
 
 
 
