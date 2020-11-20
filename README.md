@@ -80,7 +80,7 @@ Balance: The average balance for each quarter in the last year
 
 
 
-During the data pre-processing, the possible multicollinearity between all of data features. We checked for multicollinearity between features by computing the Pearson's correlation coefficients in a correlation matrix. In general, correlation coefficients of >0.7 indicates the presence of multicollinearity, which leads to model overfitting and in turns to higher modeling computational cost and possibly lower model performance. We could deduce that:
+During the data pre-processing, the possible multicollinearity between all of data features was examined. I checked for multicollinearity between features by computing the Pearson's correlation coefficients in a correlation matrix. In general, correlation coefficients of >0.7 indicates the presence of multicollinearity, which leads to model overfitting and in turns to higher modeling computational cost and possibly lower model performance. We could deduce that:
 
 \- there was a strong correlation between average balance and q2 balance. 
 
